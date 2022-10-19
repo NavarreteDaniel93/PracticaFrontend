@@ -79,7 +79,7 @@
                 <ul>
                     <li><a href="#">¿Quienes somos?</a></li>
                     <li><a href="#">Ubicaciones</a></li>
-                    <li><a href="#">Menu</a></li>
+                    <li><a href=".MENU.html">Menu</a></li>
                     <li><a href="#">Contacto</a></li>
                 </ul>
             </nav>
