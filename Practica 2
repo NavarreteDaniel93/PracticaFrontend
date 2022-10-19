@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-euiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content=""width=device-width, initial-scale="1.0">
+        <title> Taqueria Los PP'S </title>
+        <style>
+            /* Se establece la caja y su borde */
+            {
+                box-sizing: border-box;
+            }
+            /* se establece la fuente de escritura a utilizar */
+            body 
+            {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+    
+            /* Estilo de header donde se establece el color */
+            header 
+            {
+                background-color: #666;
+                padding: 30px;
+                text-align: center;
+                font-size: 35px;
+                color: white;
+            }
+    
+            /* Crear 2 columnas con la misma posición en la fila */
+            nav 
+            {
+                float: left;
+                width: 30%;
+                height: 300px;
+                background: #ccc;
+                padding: 20px;
+            }
+    
+            nav ul 
+            {
+                list-style-type: none;
+                padding: 0;
+            }
+    
+            article 
+            {
+                float: left;
+                background-color: #f1f1f1;
+            }
+    
+            /* Clear floats after the columns */
+            section::after 
+            {
+                content: "";
+                display: table;
+                clear: both;
+            }
+    
+            /* Estilo de footer */
+            footer 
+            {
+                background-color: #777;
+                padding: 10px;
+                text-align: center;
+                color: white;
+            }
+    
+            
+        </style>
+    </head>
+    <body>
+        <!-- Header -->
+        <!-- Me gustaria meter aqui el logo de abogados o algo similar-->
+        <header>
+            <h1> <img src="https://drive.google.com/file/d/1fqu17iv8SdtfAi1iNOJ-dPFtdlYGqgZB/view?usp=sharing" width="300px" height="350px"> </h1>
+        </header>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="#">¿Quienes somos?</a></li>
+                    <li><a href="#">Ubicaciones</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+    
+            <article>
+                <h1>Londres</h1>
+                <p>Londres es la capital de Inglaterra y es la ciudad más popular del Reino Unido, es la ciudad mas poblada con 13 millones de habitantes en su área metropolitana</p>
+            </article>
+        </section>
+    
+        <footer>
+            <p><a href="https://www.facebook.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png" alt="FACEBOOK" width="50px" height="50px"></a> <a href=""> Contacto </a></p> 
+        </footer>
+
+    </body>
+</html>
